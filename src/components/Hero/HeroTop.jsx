@@ -8,7 +8,7 @@ export default function HeroTop() {
             <div>
                 Education Template for 
             </div>
-            <div className='inline-block w-14 md:w-32 lg:w-72'>
+            <div className='inline-block w-16 md:w-32 lg:w-52'>
                 <img src={heroLine} alt="hero line" />
             </div>
         </div>

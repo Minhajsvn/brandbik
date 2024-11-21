@@ -8,7 +8,7 @@ import { faArrowDown, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 export default function Hero() {
     return (
         <div className='flex flex-col justify-center items-center text-[#3d146d]'>
-            <div className='text-3xl md:text-4xl lg:text-7xl font-semibold space-y-3 lg:w-9/12 py-6 lg:py-14 px-2 lg:px-8'>
+            <div className='text-2xl md:text-4xl lg:text-5xl font-semibold space-y-3 lg:w-10/12 py-6 lg:py-14 px-2 lg:px-8'>
                 <HeroTop />
                 <HeroMiddle />
                 <HeroBottom />

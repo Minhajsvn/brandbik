@@ -21,12 +21,12 @@ export default function Feature() {
     ]
 
     return (
-        <div className='flex flex-wrap justify-center items-center text-[#3d146d] py-4 h-auto gap-4 md:h-52 md:space-x-4'>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-items-center text-[#3d146d] py-4 px-16">
             {statistics.map((item, index) => {
                 return (
-                    <div key={index} className='w-[90vw] sm:w-1/2 md:w-60 h-36 flex flex-col justify-center items-center bg-gray-50 drop-shadow-lg rounded-2xl'>
+                    <div key={index} className='w-[90vw] sm:w-auto md:w-full h-36 flex flex-col justify-center items-center bg-gray-50 drop-shadow-lg rounded-2xl'>
                         <h1 className='text-5xl font-semibold mb-2'>{item.count}</h1>
-                        <p className='text-lg font-medium text-center px-6 md:px-16 leading-tight'>{item.description}</p>
+                        <p className='text-lg font-medium text-center px-6 md:w-50 leading-tight'>{item.description}</p>
                     </div>
                 )
             })}
